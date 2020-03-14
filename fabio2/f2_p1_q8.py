@@ -7,7 +7,7 @@ def main():
     print("-"*10 + " CÁLCULO IDADE "+"-"*10+"\n")
     
     leitor_data = input("Digite a data de hoje(dd/mm/aaaa): ").split("/")
-    leitor_aniversario = input("\nDigite a data do seu aniversário: ").split("/")
+    leitor_aniversario = input("\nDigite a data do seu aniversário(dd/mm/aaa): ").split("/")
     
     dia_h, mes_h, ano_h = int(leitor_data[0]), int(leitor_data[1]), int(leitor_data[2])
     dia_a, mes_a, ano_a = int(leitor_aniversario[0]), int(leitor_aniversario[1]), int(leitor_aniversario[2])
