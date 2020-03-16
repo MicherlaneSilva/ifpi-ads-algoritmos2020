@@ -4,7 +4,7 @@ def main():
     
     print('CONSOANTE OU VOGAL\n')
     letra = input("Digite uma letra: ").upper()
-    print(f'O caractere {letra} ', eh_vogal(letra))
+    print(f'O caractere {letra}', eh_vogal(letra))
 
 def eh_vogal(letra):
     
