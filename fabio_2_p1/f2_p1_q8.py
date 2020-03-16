@@ -20,9 +20,12 @@ def main():
 def calc_idade(dia_h, mes_h, ano_h, dia_a, mes_a, ano_a):
     
     total_dias_hoje = ano_h * 365 + mes_h * 30 + dia_h
-    total_dias_aniversario = ano_a * 365 + mes_a * 30 + dia_a
-    
+    total_dias_aniversario = ano_a * 365 + mes_a * 30 + dia_a    
     idade = (total_dias_hoje - total_dias_aniversario)//365
+    
+    if dia_h == dia_a and mes_h == mes_a:
+        idade += 1       
+    
     return idade
 
 main()
