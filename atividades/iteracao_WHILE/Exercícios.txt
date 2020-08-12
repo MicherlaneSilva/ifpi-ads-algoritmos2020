@@ -1,0 +1,1 @@
+Este diretório é destinado a todos os exercícios com o tipo de iteração WHILE.
