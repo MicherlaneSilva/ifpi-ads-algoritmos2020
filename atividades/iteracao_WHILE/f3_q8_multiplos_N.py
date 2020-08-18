@@ -2,7 +2,7 @@
 
 def multiplos_n(limite_s, limite_i, n):
 
-    while limite_i != limite_s + 1:
+    while limite_i <= limite_s + 1:
         
         if limite_i % n == 0:
             print(limite_i, end = " ")
