@@ -45,6 +45,6 @@ def main():
     print("CRITOGRAFAR TEXTO\n")
     
     texto = input("Texto: ")
-    print(f"Resultado da criptografia do texto {texto}  é {criptografar(texto)}.")
+    print(f"Resultado da criptografia do texto '{texto}'  é '{criptografar(texto)}'.")
     
 main()
